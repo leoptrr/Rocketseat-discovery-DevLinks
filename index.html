@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">  <!--Substituir linguagem por PT-BR-->
+    <head> <!--Link da fonte usada no projeto - via google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Links da Amanda</title>
+        <link rel="stylesheet" href="style.css"> <!--para linkar o CSS-->
+    </head>
+<body> <!--Observar o uso dos "IDs" (valor 10)-->
+    <div id="container">
+        <div id="profile"> <!--Profile contém a foto e o texto, isso vai pro CSS como #profile +atributo-->
+            <img src="./assets/Avatar.png" alt="Foto de Amanda Bortoletti, sorrindo, segurando sua filha no colo em um fundo branco">
+            <p>@amandabortoletti</p>
+    </div>
+
+    <div id="switch" onclick="toggleMode()">
+        <button>
+        </button>
+        <span>
+        </span>
+    </div>
+
+    <ul> <!--Aqui foi criado uma lista desordenada para desenvolver os botões-->
+        <li> 
+            <a href="#">Whatsapp (parcerias)</a>
+        </li>
+        <li>
+            <a href="#">E-mail (Parcerias)</a>
+        </li>
+        <li>
+            <a href="#">Mídia Kit</a>
+        </li>
+        <li>
+            <a href="#" target ="_blank">TikTok</a>
+        </li>
+    </ul>
+
+    <div id="social-links">
+        <a href="https://api.whatsapp.com/send?phone=5554996607901&text=Oi,%20Amandinha!%20Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20parcerias!">
+            <ion-icon name="logo-whatsapp"></ion-icon>       
+        </a>
+        <a href="https://www.instagram.com/amandabortoletti/">
+            <ion-icon name="logo-instagram"></ion-icon>       
+        </a>
+        <a href="https://www.tiktok.com/@amandabortoletti?_t=8cN5FUQFea6&_r=1">
+            <ion-icon name="logo-tiktok"></ion-icon>       
+        </a>
+    </div>
+    <footer>
+        Feito por <a href="https://instagram.com/o.leonardopetri"> Leonardo Petri </a>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script> <!--Adicionando script do JS-->
+</body>
+</html>
