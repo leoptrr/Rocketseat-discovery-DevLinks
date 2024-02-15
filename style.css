@@ -33,6 +33,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    height: 100vh;
 }
 
 /* modificação da fonte usada em todo o site */
@@ -163,4 +164,15 @@ footer {
     padding: 24px;
     text-align: center;
     font-size: 14px;
+}
+
+/* media queries */
+@media (min-width: 700) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
 }
